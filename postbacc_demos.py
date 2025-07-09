@@ -77,7 +77,7 @@ def demo_scaling(sizes):
    # Returns the results 
    return sizes, times
 
-    def show_memory_usage():
+def show_memory_usage():
    """
    Show current memory usage of the Python process.
    
@@ -241,7 +241,7 @@ def demo_parameter_explosion(architectures=None):
    # Return results for plotting or further analysis
    return param_counts, arch_names
 
-    def show_real_world_examples(examples=None):
+def show_real_world_examples(examples=None):
    """
    Display real-world ML/HPC examples showing computational requirements.
    
